@@ -35,7 +35,8 @@ header {
     display: flex;
     box-shadow: 1px 1px 2px #e7c667, 0 0 1em #e7c667, 0 0 0.2em #e7c667;
     height: 65px;
-    background-image: url(imgs/black.jpeg);
+    background-image: url(/HTML/imgs/black.jpeg);
+    
 }
 
 .imgg {
