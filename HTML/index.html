@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="Portofolio.css">
     <link rel="stylesheet" href="CSS/Portofolio.css">
     <title>Muhammed Hassouna</title>
 </head>
 
+
 <body>
+    <!-- NAVBAR -->
     <div class="cont">
-            <header>
-                <img class="imgg" src="imgs/MHD.png" alt="" width="100" height="40">
+        <header>
+            <div>
+                <img class="LOGO" src="imgs/MHD.png" alt="" width="100" height="40">
+            </div>
+            <div>
                 <nav class="Navbar">
                     <a href="#About" class="active">About me</a>
                     <a href="#Qualifications" class="active">Qualifications</a>
@@ -21,24 +25,47 @@
                     <a href="#projects" class="active">Projects</a>
                     <a href="#Contactt" class="active">Contact me</a>
                 </nav>
-            </header>
+            </div>
+        </header>
 
-            <section id="About" class="Section1">
-                <div class="main">
-                    <img src="imgs/05279024c9a9cb92.png" alt="">
-                    <h4>Hello, I am Muhammad, a web developer
-                        I love working in this field very much, and I like to focus a lot on the smallest details. I
-                        have a
-                        high sense of responsibility when I have a specific job
-                        Enjoy the ride on my site.
-                    </h4>
-                    <img id="img1" src="imgs/download1231232131.jpeg" alt="wait..." width="300" height="300">
-                    <q>
-                        success is the product of daily habits<br>not once-in-a-lifetime transformations
-                    </q>
-                </div>
-            </section>
-       
+        <!-- hamburger -->
+        <input type="checkbox" id="navi-toggle" class="checkbox" />
+        <label for="navi-toggle" class="button">
+            <span class="icon">&nbsp;</span>
+        </label>
+        <div class="background">&nbsp;</div>
+
+        <!-- nav -->
+        <nav class="nav">
+            <ul class="list">
+                <li class="item"> <a class="link" href="#About"> About </a> </li>
+                <li class="item"> <a class="link" href="#Qualifications"> Qualifications </a> </li>
+                <li class="item"> <a class="link" href="#Skills"> Skills </a> </li>
+                <li class="item"> <a class="link" href="#projects"> projects </a> </li>
+                <li class="item"> <a class="link" href="#Contactt"> Contactt </a> </li>
+            </ul>
+        </nav>
+
+        <!-- Page 1 -->
+        <section id="About" class="Section1">
+            <div class="main">
+                <img class="container-img1" src="imgs/05279024c9a9cb92.png" alt="" width="850px">
+                <h4>Hello, I am Muhammad, a web developer
+                    I love working in this field very much, and I like to <br> focus a lot on the smallest details. I
+                    have a
+                    high sense of responsibility when I have a specific<br> job
+                    Enjoy the ride on my site.
+                </h4>
+                <q>
+                    success is the product of daily habits<br>not once-in-a-lifetime transformations
+                </q>
+            </div>
+            <div class="container-img2">
+                <img id="img2" src="imgs/download1231232131.jpeg" alt="wait..." width="300" height="300">
+            </div>
+        </section>
+
+        <!-- Page 2 -->
         <section id="Qualifications" class="Qualifications">
             <img class="ig" src="imgs/QUU.png" alt="" width="500">
             <section class="container">
@@ -69,9 +96,14 @@
             </section>
         </section>
 
+
+        <!-- Page 3 -->
         <section id="Skills" class="Skills">
-            <img class="ig2" src="imgs/Skills.png" alt="" width="400">
+            <div class="cont-ig2">
+                <img class="ig2" src="imgs/Skills.png" alt="" width="350">
+            </div>
             <div class="father">
+
                 <div class="HTML">
                     <img class="icon-image" src="imgs/icons8-html5-144.png" alt="" width="100" height="100">
                     <p>HTML</p>
@@ -102,6 +134,8 @@
         </section>
 
 
+
+        <!-- Page 4 -->
         <section class="projectss" id="projects">
             <img class='ig3' src="imgs//my'.png" alt="">
             <section class="container">
@@ -133,7 +167,7 @@
         </section>
         </section>
 
-
+        <!-- Page 5 -->
         <section class="mang" id="Contactt">
             <div class="se">
                 <div class="contact">
@@ -151,7 +185,7 @@
                             <h1>Phone Number</h1>
                             <p><b>0792265023</b></p>
 
-                            <h1>Whatsapp Number</h1>
+                            <h1 class="ch1">Whatsapp Number</h1>
                             <p><b>0778073545</b></p>
                         </div>
                     </div>
@@ -168,7 +202,7 @@
         </section>
 
         <section class="form-container">
-            <img src="imgs/send.png" alt="" style="margin-bottom: 40px;">
+            <img class="send" src="imgs/send.png" alt="">
             <form class="cf">
                 <div class="half left cf">
                     <div class="input-group">
